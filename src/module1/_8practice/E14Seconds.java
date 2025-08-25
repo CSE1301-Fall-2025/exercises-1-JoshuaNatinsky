@@ -7,6 +7,8 @@ public class E14Seconds {
        // Your code should use the variables
        // secondsInDay and secondsInThreeDays
        // and print out secondsInThreeDays
-
+         int secondsInDay = 60 * 60 * 24;
+         int secondsInThreeDays = secondsInDay * 3;
+         System.out.println("Seconds in three days: " + secondsInThreeDays);
     }
 }

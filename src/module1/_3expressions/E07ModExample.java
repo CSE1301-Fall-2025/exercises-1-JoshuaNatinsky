@@ -2,7 +2,7 @@ package module1._3expressions;
 
 public class E07ModExample {
 	//Exercise 7: Try to guess what will be printed before
-	//running the program.
+	//running the program. - The remainder
 	public static void main(String[] args) {
 		System.out.println(11 % 10);
 		System.out.println(3 % 4);
