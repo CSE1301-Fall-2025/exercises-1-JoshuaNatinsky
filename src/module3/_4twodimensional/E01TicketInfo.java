@@ -5,7 +5,7 @@ public class E01TicketInfo {
 	public static void main(String[] args) {
 		// declare arrays
 		int[][] ticketInfo = new int[2][3];
-		System.out.println(ticketInfo.length + " rows");
-		System.out.println(ticketInfo[0].length + " columns");
+		System.out.println(ticketInfo.length + " rows"); // Number of rows
+		System.out.println(ticketInfo[0].length + " columns"); // Number of columns (length of row 0)
 	}
 }

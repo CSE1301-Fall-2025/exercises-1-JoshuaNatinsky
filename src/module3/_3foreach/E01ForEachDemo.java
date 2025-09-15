@@ -8,9 +8,15 @@ public class E01ForEachDemo {
 		int[] highScores = { 10, 9, 8, 8};
 		String[] names = {"Jamal", "Emily", "Destiny", "Mateo"};
 		// for each loop with an int array
-		for (int value : highScores) {
+		for (int value : highScores) { // "For each int value in the highScores array..."
 			System.out.println( value );
 		}
+		
+		// The same loop but written as a "for" loop instead of a "for each" loop
+		for (int i = 0; i < highScores.length; i++){
+			System.out.println(highScores[i]);
+		}
+
 		// for each loop with a String array
 		for (String value : names) {
 			System.out.println(value); // this time it's a name!

@@ -7,7 +7,7 @@ public class E03IncrementLoop {
 	//to all of the values in the array
 	public static void main(String[] args) {
 		int[ ] values = {6, 2, 1, 7, 12, 5};
-		// Can this loop increment the values?
+		// Can this loop increment the values? - No
 		for (int val : values) {
 			val++;
 			System.out.println("New val: " + val);

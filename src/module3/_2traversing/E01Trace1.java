@@ -7,7 +7,7 @@ public class E01Trace1 {
 	public static void main(String[] args) {
 		String[ ] names = {"Jamal", "Emily", "Destiny", "Mateo", "Sofia"};
 
-		for (int i = 0; i < names.length; i++) {
+		for (int i = 0; i < names.length; i++) { //Have to perform an array traversal to see the contents of an array (cannot simply print it -> won't work)
 			System.out.println( names[i] );
 		}
 	}

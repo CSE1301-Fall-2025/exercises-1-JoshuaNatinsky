@@ -8,8 +8,8 @@ public class E012DArrayTraversal {
 		int[][] a = { {1,2,3},{4,5,6}};
 		double total = 0;
 		int value = 0;
-		for (int row = 0; row < a.length; row++) {
-			for (int col = 0; col < a[0].length; col++) {
+		for (int row = 0; row < a.length; row++) { // loops through rows
+			for (int col = 0; col < a[0].length; col++) { // loops through columns
 				value = a[row][col];
 				total = total + value;
 			}
